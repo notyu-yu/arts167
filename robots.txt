@@ -1,3 +1,3 @@
-# Not much here, but here is a presumably cool image of my desktop: https://jovial-goldberg-1adc6e.netlify.app/arch_btw.png.
+# Not much here, but here is a presumably cool image of my desktop: https://tender-mcclintock-c87fe4.netlify.app/arch_btw.png.
 User-agent:*
 Disallow: /*
