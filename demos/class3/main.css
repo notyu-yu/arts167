@@ -1,0 +1,21 @@
+h1,h2 {
+    color:gray;
+}
+
+p {
+    color:red;
+    font-size:24px;
+}
+    
+#beep-id {
+    font-size: 100px;
+}
+
+.cool-class {
+    background-color: aquamarine;
+}
+
+p:hover {
+    background:blueviolet;
+    font-size: 14px;
+}
