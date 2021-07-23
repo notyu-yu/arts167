@@ -5,7 +5,7 @@ file_lst = []
 #Referenced https://mkyong.com/python/python-how-to-list-all-files-in-a-directory/ for getting file paths
 for r, d, f in os.walk('.'):
     for file in f:
-        if '.html' in file:
+        if ('.html' in file or 'secret' in file or 'flower' in file) and 'alex' not in file:
             file_lst.append(os.path.join(r,file)[2:])
 
 with open('files.txt','w+') as f:
