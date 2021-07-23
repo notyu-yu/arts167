@@ -26,7 +26,8 @@ h2 {
     color:#9aedfe;
     font-style:italic;
     font-weight:bold;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 
 .warning {
