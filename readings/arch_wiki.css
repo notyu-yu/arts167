@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Source Code Pro', monospace;
+    src: url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+}
+
+body {
+    font-size: 14px;
+    background-color: #222222;
+    color: #1793d1;
+    font-family: ubunutu, sans-serif;
+    max-width:100%;
+    margin: 0;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-wrap: break-word;
+}
+
+#mw-navigation {
+    order: 1;
+    width: 12em;
+}
+
+#mw-panel {
+    width: 13em;
+    border-right-style: solid;
+    border-color:#1793d1;
+    border-width: 5px;
+    background-color: #333333;
+    padding: 10px;
+}
+
+.mw-body {
+    order: 2;
+    width: calc(100% - 15em);
+    overflow-wrap: break-word;
+    padding: 18px;
+}
+
+.mw-footer {
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-color: #1793d1;
+}
+
+.firstHeading {
+    font-size: 24px;
+}
+
+#mw-toc-heading, .mw-headline{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.mw-body h1, .mw-body h2, .mw-body h3{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #1793d1;
+    text-decoration: none;
+}
+
+a {
+    color: #222222;
+    background-color: #1793d1;
+    margin: 2px;
+}
+
+a:visited {
+    background-color: #4ac6f4;
+}
+
+a:hover {
+    background-color: #222222;
+    color: #1793d1;
+    border-style: solid;
+    border-color: #1793d1;
+    border-width: 2px;
+    margin: 0;
+}
+
+pre {
+    font-family: "Source Code Pro", serif;
+    font-size: 13px;
+    background-color: #111111;
+    color: #1793d1;
+    padding: 2px;
+    border-style: solid;
+    border-width: 2px;
+    overflow: auto;
+}
+
+code {
+    font-family: "Source Code Pro";
+    font-size: 13px;
+    background-color: #111111;
+}
