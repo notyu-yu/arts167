@@ -6,7 +6,7 @@
     --mirror-silver: 184, 184, 184;
     --carbon-black: 36, 36, 36;
     --neon-green: 69, 201, 16;
-    --ocean-blue: 0, 98, 255;
+    --sunny-yellow: 255, 234, 0;
 }
 
 /* Background Source: https://www.gancube.com/3x3x3-cfop-guide-of-gancube */
@@ -57,7 +57,7 @@ h1 {
 }
 
 #outer-cube div:hover {
-    background-color: rgb(var(--ocean-blue));
+    background-color: rgb(var(--sunny-yellow));
 }
 
 #outer-cube div ul {
@@ -96,7 +96,7 @@ ul {
     height: min(96vw, 96vh);
     position: absolute;
     transition: 0.1s;
-    background-color: rgba(var(--neon-green), 96%);
+    background-color: rgba(var(--sunny-yellow), 95%);
 }
 
 #outer-cube div:active p, #outer-cube div:active ul{
