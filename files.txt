@@ -11,6 +11,7 @@
 	<li><a href="demos/class2/seriality.html" target="_blank">_____</a></li>
 	<li><a href="demos/class2/skeleton.html" target="_blank">_____</a></li>
 	<li><a href="demos/class2/index.html" target="_blank">_____</a></li>
+	<li><a href="demos/class7/form.html" target="_blank">_____</a></li>
 	<li><a href="demos/class3/styles.html" target="_blank">_____</a></li>
 	<li><a href="demos/class3/inspector.html" target="_blank">_____</a></li>
 	<li><a href="demos/class1/index.html" target="_blank">_____</a></li>
