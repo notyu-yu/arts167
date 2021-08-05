@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --mirror-silver: 184, 184, 184;
+    --carbon-black: 36, 36, 36;
+    --neon-green: 69, 201, 16;
+}
+
+/* Background Source: https://www.gancube.com/3x3x3-cfop-guide-of-gancube */
+body {
+    background: url(collection_images/CFOP_course.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(var(--carbon-black));
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#outer-cube {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: min(100vw, 100vh);
+    max-width: min(100vw, 100vh);
+    margin: 0 auto;
+}
+
+#outer-cube div{
+    background-color: rgba(var(--neon-green), 80%);
+    width: min(32vw, 32vh);
+    height: min(32vw, 32vh);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(var(--carbon-black));
+    border-width: 3px;
+    transition: 0.1s;
+}
+
+#outer-cube div:active {
+    width: min(96vw, 96vh);
+    height: min(96vw, 96vh);
+    position: absolute;
+}
+
+figure {
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    text-align: center;
+}

@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
+
+:root {
+    --night-black: 10, 10, 10;
+    --easy-white: 238, 238, 238;
+}
+
+/* Background Image Source: https://www.sciencemag.org/news/2016/01/better-power-lines-would-help-us-supercharge-renewable-energy-study-suggests */
+body {
+    background: url(infrastructure_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'IM Fell French Canon';
+    align-items: center;
+    color: rgb(var(--easy-white));
+}
+
+#content-body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgba(var(--night-black), 80%);
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-bottom: -2em;
+}
+
+#pictures div{
+    margin: 0;
+    padding: 10px;
+    margin-bottom: -1em;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption{
+    visibility: hidden;
+    position: relative;
+    bottom: 2.6em;
+    background: linear-gradient(rgba(var(--easy-white), 80%), rgb(var(--night-black)));
+    line-height: 2em;
+    opacity: 0.8;
+    padding: 3px;
+    color: rgb(var(--night-black));
+}
+
+figure:hover figcaption  {
+    visibility: visible;
+}
+
+#writing {
+    align-items: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#writing p {
+    margin: 2em auto;
+}
+
+hr {
+    height: 5px;
+}
