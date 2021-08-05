@@ -56,6 +56,10 @@ h1 {
     transition: 0.1s;
 }
 
+#outer-cube div:hover {
+    background-color: rgb(var(--ocean-blue));
+}
+
 #outer-cube div ul {
     display: none;
     padding: 5px;
