@@ -13,7 +13,7 @@
 
 /* Background Source: https://www.gancube.com/3x3x3-cfop-guide-of-gancube */
 body {
-    font-family: Ubuntu, Mono, Sans;
+    font-family: "Ubuntu", Mono, Sans;
     background: url(collection_images/CFOP_course.jpg);
     background-position: center;
     background-size: cover;
