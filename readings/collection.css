@@ -6,6 +6,7 @@
     --mirror-silver: 184, 184, 184;
     --carbon-black: 36, 36, 36;
     --neon-green: 69, 201, 16;
+    --ocean-blue: 0, 98, 255;
 }
 
 /* Background Source: https://www.gancube.com/3x3x3-cfop-guide-of-gancube */
@@ -18,11 +19,16 @@ body {
     overflow: hidden;
     user-select: none;
     margin-right: -3vw;
+    font-size: 18px;
 }
 
 h1 {
     text-align: center;
     font-weight: bold;
+    font-size: 38px;
+    margin: 0;
+    margin-top: 5px;
+    padding: 8px;
 }
 
 #outer-cube {
@@ -43,29 +49,50 @@ h1 {
     padding: 0;
     justify-content: center;
     align-items: center;
+    align-content: center;
     border-style: solid;
     border-color: rgb(var(--carbon-black));
     border-width: 3px;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
-#outer-cube div p, #outer-cube div ul {
+#outer-cube div ul {
     display: none;
+    padding: 5px;
+    text-align: left;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#outer-cube div li {
+    text-align: left;
+}
+
+#outer-cube div p {
+    font-family: serif;
+    display: none;
+    padding: 5px;
     text-align: center;
     align-content: center;
-    width: 80%;
+    width: 40%;
     margin: 0 auto;
+}
+
+#outer-cube div p:not(#intro-p) {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 ul {
     list-style-position: inside;
 }
 
-#outer-cube div:active {
+#outer-cube div:active{
     width: min(96vw, 96vh);
     height: min(96vw, 96vh);
     position: absolute;
-    transition: 0.5s;
+    transition: 0.1s;
+    background-color: rgba(var(--neon-green), 96%);
 }
 
 #outer-cube div:active p, #outer-cube div:active ul{
